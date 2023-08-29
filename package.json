@@ -1,0 +1,14 @@
+{
+  "name": "cafeteria",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS, Gulp, CSS Grid y Flexbox, BEM, más",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geovanni Fernández Elizondo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
