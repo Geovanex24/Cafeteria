@@ -1,7 +1,22 @@
 @use "variables" as v;
 
+// 480px
 @mixin telefono {
   @media (min-width: v.$telefono) {
+    @content;
+  }
+}
+
+// 768px
+@mixin tablet {
+  @media (min-width: v.$tablet) {
+    @content;
+  }
+}
+
+// 1024px
+@mixin desktop {
+  @media (min-width: v.$desktop) {
     @content;
   }
 }
