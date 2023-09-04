@@ -1,7 +1,7 @@
 {
   "name": "cafeteria",
   "version": "1.0.0",
-  "description": "Aprendiendo SASS, Gulp, CSS Grid y Flexbox, BEM, más",
+  "description": "Aprendiendo SASS, Gulp, CSS Grid y Flexbox, más",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.15",
     "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
     "postcss": "^8.4.29",
     "sass": "^1.66.1"
   },
