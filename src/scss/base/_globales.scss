@@ -15,6 +15,11 @@ body {
   font-family: v.$fuenteSecundaria;
   font-size: 1.6rem;
   background-color: v.$cafeClaro;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100vh;
 }
 p {
   color: v.$negro;
