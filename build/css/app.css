@@ -459,6 +459,10 @@ h3 {
   background-image: url(../img/header_menu.jpg);
 }
 
+.header-galeria {
+  background-image: url(../img/header_galeria.jpg);
+}
+
 .barra {
   display: flex;
   flex-direction: column;
