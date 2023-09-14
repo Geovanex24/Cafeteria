@@ -5,6 +5,7 @@ const sass = require("gulp-sass")(require("sass"));
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const sourcemaps = require("gulp-sourcemaps");
+const cssnano = require("cssnano");
 
 // Imagenes
 const imagemin = require("gulp-imagemin");
@@ -33,7 +34,7 @@ function css(done) {
   src("src/scss/app.scss")
     .pipe(sourcemaps.init())
     .pipe(sass())
-    .pipe(postcss([autoprefixer()]))
+    .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(sourcemaps.write(".")) //Las comillas y el punto es para que se gurade junto al build
     .pipe(dest("build/css"));
   /* The `done()` function is used to signal the completion of the task. In this case, it is called at
